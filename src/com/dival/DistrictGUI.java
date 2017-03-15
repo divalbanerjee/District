@@ -8,6 +8,7 @@ import java.awt.*;
  */
 //B: Total fees outputed for 1000 students, including total fees per each student to prove the use of abstract methods and array lists
     //add james smith, delete student with the 15th id num
+    //Be able to save a disctrict file and open a district file
 //abstract find average, generate district, total fees for each student, total fees for each student and the all highschool students, middle school, and elementry and total fees for each s
 public class DistrictGUI extends JFrame {
 
@@ -36,6 +37,7 @@ public class DistrictGUI extends JFrame {
 
     public DistrictGUI(){
         Container  windowContainer = this.getContentPane();
+
 
 
     }

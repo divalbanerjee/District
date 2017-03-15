@@ -7,12 +7,13 @@ import java.util.ArrayList;
  */
 public class MiddleStudent extends Student {
 
-
-
-
     public void generateClasses(){
         ArrayList<Course> AvailableCourses = new ArrayList<Course>();
-        AvailableCourses.add(new Course)
+        AvailableCourses.add(new Course("Pre-Algaebra","A",15));
+        AvailableCourses.add(new Course("Environmental Science","A",15));
+        AvailableCourses.add(new Course("American History", "A", 15));
+        AvailableCourses.add(new Course("World History","A", 15));
+        AvailableCourses.add(new Course("","A",15));
     }
 
     public double findFees(){
